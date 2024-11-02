@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    background-color:rgb(69, 29, 52);
+    color: #fca4e3;
+    padding : 15px;
+}
+h1{
+   font-size: larger;
+   font-style: italic;
+   font-weight: 700;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+li,h1,ul{
+    display:inline;
+}
+ul{
+    margin-left:  60%;
+}
+li{
+    color:gray;
+}
+li:hover{
+    color:antiquewhite;
+}
+input{
+    width:60%;
+    padding:15px;
+}
+.SearchBar{
+    padding:60px;
+    text-align:center;
+}
+.box{
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    display: inline-block;
+    width:700px;
+
+}
+.box img{
+    width: 600px;
+    height: 400px;
+
+}
+
+
+.box:hover{
+    background-color: black;
+    color:white;
+}
+
+.products{
+    text-align:center;
+}
+.about{
+    text-align:center;
+    margin-top:200px;
+    padding:30px;
+}
+.Contact{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
